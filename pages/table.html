@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo.svg" alt="">
+        </div>
+        <nav>
+            <ul class="navLinks">
+                <li><a href="/index.html">About me</a></li>
+                <li><a href="/pages/form.html">Sign up</a></li>
+                <li><a href="/pages/table.html">Courses</a></li>
+                <li><a href="/pages/media.html">Media</a></li>
+            </ul>
+        </nav>
+
+        <div onclick="toggleMenu()" class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="tableContainer">
+            <table>
+                <tr>
+                    <th class="stick">School</th>
+                    <th>Courses</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td class="stick even">SOE</td>
+                    <td>Frontend</td>
+                    <td>Backend</td>
+                    <td>Cloud </td>
+                    <td>Cyber Security</td>
+                </tr>
+                <tr>
+                    <td class="stick">SOD</td>
+                    <td>Data Analysis</td>
+                    <td>Data Science</td>
+                    <td>Data Engineering</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="stick even">SOP</td>
+                    <td>Product design</td>
+                    <td>Product Marketing</td>
+                    <td>Product Management</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="stick ">SOB</td>
+                    <td>High-Impact Selling</td>
+                    <td>Digital Marketing</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="stick even">SOCE</td>
+                    <td>Music Bussiness</td>
+                    <td>Content Mastery</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <div class="abbr">
+            <h1>Abbreviation</h1>
+            <p><span>SOE</span> - School of Engineering</p>
+            <p><span>SOD</span> - School of Data</p>
+            <p><span>SOP</span> - School of Product</p>
+            <p><span>SOB</span> - School of Bussiness</p>
+            <p><span>SOCE</span> - School of Creative Engineering</p>
+        </div>
+
+        <a href="#">
+            <div class="scrollToTop">
+
+                <img src="./assets/arrow.svg" alt="">
+
+            </div>
+        </a>
+
+    </main>
+
+
+    <script>
+        const nav = document.querySelector("nav")
+        const body = document.querySelector("body")
+
+        const toggleMenu = () => {
+            nav.classList.toggle("show")
+            window.body.classList.toggle("stopScroll")
+
+        }
+    </script>
+
+</body>
+
+</html>
