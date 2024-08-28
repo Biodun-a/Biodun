@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=   , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="">
+        </div>
+
+        <nav>
+            <ul class="navLinks">
+                <li><a href="/index.html">About me</a></li>
+                <li><a href="/pages/form.html">Sign up</a></li>
+                <li><a href="/pages/table.html">Courses</a></li>
+                <li><a href="/pages/media.html">Media</a></li>
+            </ul>
+        </nav>
+
+        <div onclick="toggleMenu()" class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <section class="aboutMe">
+
+            <div class="myImg">
+                <img src="./assets/man.webp" alt="">
+
+            </div>
+            <div id="about" class="aboutTxtContainer">
+
+                <div>
+                    <h1>Biography</h1>
+                    <p>Abdul wahab is a Nigerian born in warri delta state, know for his strong academic background and
+                        dedication
+                        to engineering. he holds a bachelors degree in mechanical engineering, which laid a foundation
+                        for his deep
+                        interest in the field, currently pursuing a masters degree furthering his expertise and aiming
+                        to contribute
+                        signifiacantly to the engieneering sector
+                    </p>
+
+                </div>
+
+                <div class="reason">
+                    <h1> Why I Joined AltSchool Africa</h1>
+                    <div>
+                        <h2>Attraction to Practical Learning:</h2>
+                        <p>I chose to join AltSchool Africa because of its commitment to practical, hands-on learning.
+                            Unlike traditional academic programs, AltSchool emphasizes real-world applications of
+                            technology, ensuring that students are not only learning theoretical concepts but also
+                            applying them in meaningful ways. This approach is particularly appealing to me because I
+                            believe that true understanding comes from doing, and I wanted to be part of a program that
+                            prioritizes this method of education.</p>
+                    </div>
+                    <div>
+                        <h2>
+                            Focus on Industry-Relevant Skills:</h2>
+                        <p>Another reason for my decision was AltSchool's focus on preparing students for the demands of
+                            the tech industry. The curriculum is designed to equip students with the skills that
+                            employers are actively seeking, such as software development, problem-solving, and
+                            collaboration. Knowing that I would graduate with a skill set that is directly applicable to
+                            the workforce gave me confidence that this program would set me on the right path toward
+                            achieving my career goals.</p>
+                    </div>
+                    <div>
+                        <h2>Community and Mentorship:</h2>
+                        <p>The opportunity to be part of a vibrant community of learners and professionals was also a
+                            significant factor. AltSchool’s emphasis on mentorship and collaboration means that I will
+                            have the chance to learn from industry experts and network with peers who share my passion
+                            for technology. This collaborative environment is essential for my growth, as it provides a
+                            support system and valuable insights that will guide me throughout my learning journey.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="reason">
+                    <h1> Goals For Joining School of Engineering Program </h1>
+                    <div>
+                        <h2>Deepening Technical Knowledge:</h2>
+                        <p>One of my primary goals in the School of Engineering program is to deepen my understanding of
+                            software development. I
+                            aim to master the fundamental concepts of programming, algorithms, and system design, which
+                            are critical to building
+                            robust and efficient software solutions. By engaging with the curriculum and tackling
+                            complex projects, I hope to gain a
+                            comprehensive understanding of these areas, laying a solid foundation for my future career.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Enhancing Problem-Solving Skills:</h2>
+                        <p>Another key objective is to improve my problem-solving abilities. The tech industry is
+                            constantly evolving, and
+                            engineers are often faced with challenges that require innovative and creative solutions.
+                            Through the program, I want to
+                            sharpen my analytical thinking and develop strategies for tackling difficult problems. This
+                            will not only make me a
+                            better engineer but also prepare me for leadership roles where decision-making and
+                            problem-solving are crucial.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            Gaining Practical Experience:</h2>
+                        <p>I also intend to gain as much practical experience as possible. AltSchool’s project-based
+                            approach allows students to
+                            work on real-world challenges, providing an invaluable opportunity to apply theoretical
+                            knowledge in practical settings.
+                            My goal is to participate in a variety of projects that will give me hands-on experience,
+                            enabling me to build a strong
+                            portfolio that demonstrates my skills and versatility to potential employers.</p>
+                    </div>
+                    <div>
+                        <h2>
+                            Networking and Community Building:</h2>
+                        <p>Finally, I aspire to build strong relationships within the AltSchool community. Networking
+                            with peers, mentors, and
+                            industry professionals is essential for personal and professional growth. I plan to actively
+                            engage in the community,
+                            contribute to discussions, and collaborate on projects, all of which will help me to learn
+                            from others and share my own
+                            insights. This network will be instrumental in my career development, providing
+                            opportunities for mentorship,
+                            collaboration, and lifelong learning.</p>
+                    </div>
+
+                </div>
+                <a href="#">
+                    <div class="scrollToTop">
+
+                        <img src="./assets/arrow.svg" alt="">
+
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+        </section>
+    </main>
+
+
+    <script>
+        const nav = document.querySelector("nav")
+
+        const toggleMenu = () => {
+            nav.classList.toggle("show")
+        }
+    </script>
+
+</body>
+
+</html>
